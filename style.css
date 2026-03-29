@@ -58,5 +58,31 @@ h4{
 }
 main{
     background-color:var(--light-blue);
+    display: flex;
+    flex-direction: row;
+}
+#div-4{ 
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+input{
+    width: 510px;
+    height: 34px;
+    border-radius: 50px;
+    
+}
+#writings{
+    background-color: var(--white);
+    padding: 80px;
+    
 
+}
+#app{
+    padding-bottom: 30px;
+    margin-left: 60px;
+}
+#div-4{
+    width: ;
 }
