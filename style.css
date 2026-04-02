@@ -71,11 +71,13 @@ main{
     flex-direction: row;
     justify-content: center;
     padding: 65px 0;
+    
 }
-#div-4{ 
+.div-4{ 
     display: flex;
     flex-direction: column;
     gap: 30px;
+    
 }
 input{
     width: 510px;
@@ -83,9 +85,22 @@ input{
     border-radius: 50px;
     font-size: 20px;
     font-family: var(--font-family);
+    font-weight: 400;
     border: var(--dark-blue) 2px solid;
     color: var(--dark-blue);
+    padding-left: 30px;
 }
+.dash{
+    width: 30px;
+    border: 3px solid var(--blue);
+}
+#dash-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
 #writings{
     background-color: var(--white);
     padding: 27px 80px;
@@ -95,7 +110,7 @@ input{
     margin-left: 60px;
 }
 #doctor{
-    height: 612px;
+    height: 100%;
 }
 button{
     background-color: var(--blue);
