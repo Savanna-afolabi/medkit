@@ -13,12 +13,20 @@
     --font-family: "Roboto", sans-serif;
 }
 header{
-    display: flex;
-    justify-content: space-between;
     background-color: var(--white);
 }
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 .container{
-    padding: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+     padding: 25px 90px;
+
 }
 #appointment{
     color: var(--blue);
@@ -62,6 +70,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 65px 0;
 }
 #div-4{ 
     display: flex;
@@ -102,11 +111,15 @@ button{
 }
 footer{
     background-color: var(--dark-blue);
+}
+section{
     display: flex;
-    gap: 80px;
     justify-content: space-between;
-    
-
+    padding: 0 40px;
+}
+.parent{
+    display: flex;
+    gap: 55px;
 }
 h5{
     font-size: 16px;
