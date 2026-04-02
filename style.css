@@ -153,11 +153,18 @@ h6{
 .div-5{
     padding-bottom: 80px;
     padding-top: 80px;
+    
 }
+#div-6{
+    padding: 25px 0;
+}
+/* #img-wrapper{
+   
+} */
 .img{
     color: var(--blue);
-    padding-left: 40px;
-
+    padding-right: 40px;
+    
 }
 #heal{
     padding-bottom: 12px;
