@@ -224,7 +224,22 @@ h6{
         
     }
     .div-5{
-        padding-bottom: 0;
-        padding-right: 0;
+        padding-bottom: 20px;
+        padding-top: 0;
+    }
+    h5{
+        padding-bottom: 19px;
+    }
+    #img-wrapper{
+        align-items: center;
+    }
+    #div-6{
+        align-items: center;
+    }
+    #steth{
+        padding-top: 25px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
 }
