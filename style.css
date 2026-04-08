@@ -174,12 +174,13 @@ h6{
 @media(max-width:438px){
     body{
         width: 428px;
+        overflow-x: hidden;
     }
     #inside-div-1{
         padding-right: 10px;
     }
     .container{
-        padding: none;
+        padding: 10px;
         max-width: 438px;
     }
     #div-1{
@@ -196,17 +197,34 @@ h6{
         align-self: center;
     }
     #app{
-        align-self: center;
+        margin: 0;
+        padding: none;
+        text-align: center;
     }
     #writings{
         width: 400px;
         border-radius: 30px;
+        padding: none;
     }
     .dash{
         display: none;
     }
     footer{
         width: 438px;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .parent{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
         
+    }
+    .div-5{
+        padding-bottom: 0;
+        padding-right: 0;
     }
 }
