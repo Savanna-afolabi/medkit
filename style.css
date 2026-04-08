@@ -16,11 +16,9 @@ header{
     background-color: var(--white);
 }
 nav{
-   
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .container{
     max-width: 1500px;
@@ -172,4 +170,43 @@ h6{
 #steth{
     display: flex;
     gap: 20px;
+}
+@media(max-width:438px){
+    body{
+        width: 428px;
+    }
+    #inside-div-1{
+        padding-right: 10px;
+    }
+    .container{
+        padding: none;
+        max-width: 438px;
+    }
+    #div-1{
+        padding: 0;
+    }
+    #div-2{
+        display: none;
+    }
+    #doctor{
+        display: none;
+    }
+    input{
+        width: 320px;
+        align-self: center;
+    }
+    #app{
+        align-self: center;
+    }
+    #writings{
+        width: 400px;
+        border-radius: 30px;
+    }
+    .dash{
+        display: none;
+    }
+    footer{
+        width: 438px;
+        
+    }
 }
