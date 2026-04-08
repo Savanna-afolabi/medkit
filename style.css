@@ -156,13 +156,12 @@ h6{
 #div-6{
     padding: 25px 0;
 }
-/* #img-wrapper{
-   
-} */
+#img-wrapper{
+    display: flex;
+    gap: 40px;
+}
 .img{
     color: var(--blue);
-    padding-right: 40px;
-    
 }
 #heal{
     padding-bottom: 12px;
@@ -232,6 +231,9 @@ h6{
     }
     #img-wrapper{
         align-items: center;
+        border: red solid 1px;
+        display: flex;
+        justify-content: center;
     }
     #div-6{
         align-items: center;
