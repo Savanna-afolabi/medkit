@@ -170,9 +170,9 @@ h6{
     display: flex;
     gap: 20px;
 }
-@media(max-width:438px){
+@media(max-width:429px){
     body{
-        width: 428px;
+        width: 429px;
         overflow-x: hidden;
     }
     #inside-div-1{
@@ -231,7 +231,6 @@ h6{
     }
     #img-wrapper{
         align-items: center;
-        border: red solid 1px;
         display: flex;
         justify-content: center;
     }
