@@ -170,7 +170,7 @@ h6{
     display: flex;
     gap: 20px;
 }
-@media(max-width:429px){
+@media(max-width:500px){
     body{
         width: 429px;
         overflow-x: hidden;
