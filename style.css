@@ -174,7 +174,7 @@ h6{
     body{
         width: 429px;
         overflow-x: hidden;
-        border: red 4px solid;
+       
     }
     #inside-div-1{
         padding-right: 10px;
@@ -182,7 +182,7 @@ h6{
     .container{
         padding: 10px;
         max-width: 100%;
-        border: blue 3px solid;
+        
     }
     #div-1{
         padding: 0;
